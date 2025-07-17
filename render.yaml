@@ -9,7 +9,7 @@ services:
     name: yamenthon
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m yamenthon
+    startCommand: python3 yeman.py
     region: frankfurt
     envVars:
       - key: APP_ID
